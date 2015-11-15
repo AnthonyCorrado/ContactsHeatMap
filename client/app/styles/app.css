@@ -1,0 +1,22 @@
+/* global settings */
+.pad-med {
+  padding: 20px;
+}
+
+/* ---------------- */
+.dashboard-container {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+.nav-container {
+  height: 500px;
+  background-color: rgba(0, 0, 255, 0.4);
+}
+.index-container {
+  height: 500px;
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+.contact-card {
+  height: 40px;
+  background-color: rgba(0, 150, 0, 0.5);
+}

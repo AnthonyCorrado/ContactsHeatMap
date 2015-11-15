@@ -1,0 +1,4 @@
+This is a contact card
+{{#each contacts as |contact|}}
+  <div class="contact-card" {{action 'selectContact' contact}}>Hello, {{contact.firstName}}</div>
+{{/each}}

@@ -1,0 +1,18 @@
+<div class="dashboard-container row pad-med">
+  This is the dashboard
+
+  <div class="nav-container col-xs-2">
+    Nav
+  </div>
+
+  <div class="index-container col-xs-4">
+    Index
+    {{contact-card contacts=contacts selectedContact="setContact"}}
+  </div>
+
+  <div class="details-container">
+    Details
+    {{contact-detail contact=currentContact}}
+  </div>
+
+</div>
