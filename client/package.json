@@ -40,6 +40,7 @@
     "emberfire": "git://github.com/firebase/emberfire.git#d280d8911707720cd77b5e3376ab94adaf6968ba",
     "express": "^4.13.3",
     "glob": "^4.5.3",
-    "morgan": "^1.6.1"
+    "morgan": "^1.6.1",
+    "torii": "0.6.1"
   }
 }

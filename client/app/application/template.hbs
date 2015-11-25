@@ -5,6 +5,7 @@
     Home
   {{/link-to}}
 
+  {{session.token}}
   {{#if session.isAuthenticated}}
     <button {{action 'logout'}}>Logout</button>
   {{else}}

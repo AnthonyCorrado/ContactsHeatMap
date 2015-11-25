@@ -2,8 +2,9 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
-  action: {
-    logout() {
+
+  actions: {
+    logout: function() {
       this.get('session').invalidate();
     }
   }
